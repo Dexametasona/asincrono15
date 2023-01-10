@@ -1,3 +1,4 @@
+import { CompAsinc15Module } from './comp-asinc15/comp-asinc15.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CompAsinc15Module
   ],
   providers: [],
   bootstrap: [AppComponent]
